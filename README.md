@@ -24,14 +24,19 @@ Algorithmic Pacing Calculation: Computes estimated speech runtimes based on a ca
 Dual-Format Output: Generates both a pipeline_manifest.json for future direct API integrations (e.g., ElevenLabs) and a production_brief.md for human editorial review.
 
 Usage
+
 Clone the repository and install the dependencies:
 
 Bash
+
 pip install google-genai pydantic
+
 Set your Google Gemini API key as an environment variable:
 
 Bash
 setx GEMINI_API_KEY "your_api_key_here"
+
+
 Execute the pipeline:
 
 Bash
